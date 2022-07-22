@@ -22,4 +22,12 @@ class Api::V1::TokensControllerTest < ActionDispatch::IntegrationTest
     post api_v1_tokens_url, params: {user: {email: @user.email, password: 'not_passs'}}, as: :json
     assert_response :unauthorized
   end
+
+
+  # test "should forbid destroy user because JWT is invalid" do
+  #   assert_no_difference('User.count') do
+  #     delete api_v1_user_url(@user), headers: { Authorization: JWT.encode({user_id: @user.id}, 'bad_signature')}, as: :json
+  #   end
+  #   assert_response :forbidden
+  # end
 end
