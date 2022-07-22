@@ -39,7 +39,7 @@
     <orderEntry type="library" scope="PROVIDED" name="activerecord (v6.0.5.1, RVM: ruby-3.0.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activestorage (v6.0.5.1, RVM: ruby-3.0.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v6.0.5.1, RVM: ruby-3.0.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.17, RVM: ruby-3.0.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.18, RVM: ruby-3.0.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bootsnap (v1.12.0, RVM: ruby-3.0.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.4, RVM: ruby-3.0.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v2.2.32, RVM: ruby-3.0.0) [gem]" level="application" />
