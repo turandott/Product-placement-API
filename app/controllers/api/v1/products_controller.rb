@@ -13,8 +13,9 @@ class Api::V1::ProductsController < ApplicationController
 
   def index
     # @products = Product.page(params[:page]).per(params[:per_page]).search(params)
-    @products = Product.page(current_page).per(per_page).search(params)
+    @products = Product.includes(:user).page(current_page).per(per_page).search(params)
     options = get_links_serializer_options(api_v1_products_path, @products)
+    options[:include] = [:user]
     render json: ProductSerializer.new(@products, options).serializable_hash.to_json
   end
 
